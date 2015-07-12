@@ -1,0 +1,1 @@
+/Users/bhagvan_kommadi/Projects/Analytics/Analytics/obj/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs

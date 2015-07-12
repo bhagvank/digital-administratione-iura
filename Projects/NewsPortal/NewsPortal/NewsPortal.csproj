@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectTypeGuids>{349C5851-65DF-11DA-9384-00065B846F21};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <ProjectGuid>{7FD1F7B6-B70D-4909-A572-8C9345EC92A1}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>NewsPortal</RootNamespace>
+    <AssemblyName>NewsPortal</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Web.Services" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ProjectExtensions>
+    <MonoDevelop>
+      <Properties>
+        <XspParameters Port="8080" Address="127.0.0.1" SslMode="None" SslProtocol="Default" KeyType="None" CertFile="" KeyFile="" PasswordOptions="None" Password="" Verbose="True" />
+      </Properties>
+    </MonoDevelop>
+  </ProjectExtensions>
+  <ItemGroup>
+    <Folder Include="ASP.Net - News Portal\" />
+    <Folder Include="ASP.Net - News Portal\Presentation\NewsPortal.UI.Process\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ASP.Net - News Portal\.DS_Store" />
+    <None Include="ASP.Net - News Portal\Presentation\.DS_Store" />
+    <None Include="ASP.Net - News Portal\Services\.DS_Store" />
+    <None Include="ASP.Net - News Portal\Shared\.DS_Store" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ASP.Net - News Portal\Business\NewsPortal.Business\NewsPortalManagerComponent.cs" />
+    <Compile Include="ASP.Net - News Portal\Data\NewsPortal.Data\DataAccessComponent.cs" />
+    <Compile Include="ASP.Net - News Portal\Data\NewsPortal.Data\NewsPortalDAC.cs" />
+    <Compile Include="ASP.Net - News Portal\Presentation\NewsPortal.UI.Web\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ASP.Net - News Portal\Services\NewsPortal.Services\NewsPortalManagerService.cs" />
+    <Compile Include="ASP.Net - News Portal\Services\NewsPortal.Services.Contracts\INewsPortalManagerService.cs" />
+    <Compile Include="ASP.Net - News Portal\Shared\NewsPortal.Entities\NewsMedia.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ASP.Net - News Portal\Presentation\NewsPortal.UI.Web\Default.aspx" />
+  </ItemGroup>
+</Project>

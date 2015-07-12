@@ -1,0 +1,18 @@
+﻿<Properties StartupItem="NewsPortal/NewsPortal.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="NewsPortal/ASP.Net - News Portal/Business/NewsPortal.Business/NewsPortalManagerComponent.cs">
+    <Files>
+      <File FileName="NewsPortal/ASP.Net - News Portal/Business/NewsPortal.Business/NewsPortalManagerComponent.cs" Line="6" Column="14" />
+      <File FileName="NewsPortal/ASP.Net - News Portal/Data/NewsPortal.Data/NewsPortalDAC.cs" Line="1" Column="1" />
+      <File FileName="NewsPortal/ASP.Net - News Portal/Presentation/NewsPortal.UI.Web/Default.aspx.cs" Line="1" Column="1" />
+      <File FileName="NewsPortal/ASP.Net - News Portal/Services/NewsPortal.Services/NewsPortalManagerService.cs" Line="1" Column="1" />
+      <File FileName="NewsPortal/ASP.Net - News Portal/Services/NewsPortal.Services.Contracts/INewsPortalManagerService.cs" Line="1" Column="1" />
+      <File FileName="NewsPortal/ASP.Net - News Portal/Shared/NewsPortal.Entities/NewsMedia.cs" Line="62" Column="47" />
+      <File FileName="../NewsMediaManager/NewsMediaManager/WinForms - News Media Manager/Shared/NewsMediaManager.Entities/NewsMedia.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

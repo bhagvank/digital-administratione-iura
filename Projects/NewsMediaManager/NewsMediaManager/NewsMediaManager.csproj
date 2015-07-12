@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{DDBEE457-FE96-434A-89F5-A371128526F2}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>NewsMediaManager</RootNamespace>
+    <AssemblyName>NewsMediaManager</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Externalconsole>true</Externalconsole>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Externalconsole>true</Externalconsole>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WinForms - News Media Manager\Business\NewsMediaManager.Business\NewsMediaManagementComponent.cs" />
+    <Compile Include="WinForms - News Media Manager\Data\NewsMediaManager.Data\DataAccessComponent.cs" />
+    <Compile Include="WinForms - News Media Manager\Data\NewsMediaManager.Data\NewsMediaManagementDAC.cs" />
+    <Compile Include="WinForms - News Media Manager\Presentation\NewsMediaManager.UI.Windows\Main.cs" />
+    <Compile Include="WinForms - News Media Manager\Services\NewsMediaManager.Services\NewsMediaManagementService.cs" />
+    <Compile Include="WinForms - News Media Manager\Services\NewsMediaManager.Services.Contracts\INewsMediaManagementService.cs" />
+    <Compile Include="WinForms - News Media Manager\Shared\NewsMediaManager.Entities\NewsMedia.cs" />
+    <Compile Include="WinForms - News Media Manager\Shared\NewsMediaManager.DRM\MediaStream.cs" />
+    <Compile Include="WinForms - News Media Manager\Shared\NewsMediaManager.DRM\MediaStreamASF.cs" />
+    <Compile Include="WinForms - News Media Manager\Shared\NewsMediaManager.DRM\MediaHeader.cs" />
+    <Compile Include="WinForms - News Media Manager\WindowsMediaLibV1-1\src\AssemblyInfo.cs" />
+    <Compile Include="WinForms - News Media Manager\WindowsMediaLibV1-1\src\MMIO.cs" />
+    <Compile Include="WinForms - News Media Manager\WindowsMediaLibV1-1\src\WMCore.cs" />
+    <Compile Include="WinForms - News Media Manager\WindowsMediaLibV1-1\src\WMDefs.cs" />
+    <Compile Include="WinForms - News Media Manager\WindowsMediaLibV1-1\src\WMUtils.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <Folder Include="WinForms - News Media Manager\" />
+    <Folder Include="WinForms - News Media Manager\Shared\NewsMediaManager.DRM\" />
+    <Folder Include="WinForms - News Media Manager\Presentation\NewsMediaManager.UI.Process\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="WinForms - News Media Manager\.DS_Store" />
+    <None Include="WinForms - News Media Manager\Business\.DS_Store" />
+    <None Include="WinForms - News Media Manager\Data\.DS_Store" />
+    <None Include="WinForms - News Media Manager\Data\NewsMediaManager.Data\.DS_Store" />
+    <None Include="WinForms - News Media Manager\Presentation\.DS_Store" />
+    <None Include="WinForms - News Media Manager\Services\.DS_Store" />
+    <None Include="WinForms - News Media Manager\Shared\.DS_Store" />
+    <None Include="WinForms - News Media Manager\WindowsMediaLibV1-1\.DS_Store" />
+    <None Include="WinForms - News Media Manager\WindowsMediaLibV1-1\lib\WindowsMediaLib.dll" />
+    <None Include="WinForms - News Media Manager\WindowsMediaLibV1-1\src\WindowsMediaLib-2005.csproj" />
+    <None Include="WinForms - News Media Manager\WindowsMediaLibV1-1\src\WindowsMediaNET-2005.sln" />
+    <None Include="WinForms - News Media Manager\WindowsMediaLibV1-1\src\wml.snk" />
+  </ItemGroup>
+</Project>

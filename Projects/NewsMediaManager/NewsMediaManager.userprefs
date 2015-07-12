@@ -1,0 +1,23 @@
+﻿<Properties StartupItem="NewsMediaManager/NewsMediaManager.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="NewsMediaManager/WinForms - News Media Manager/Shared/NewsMediaManager.DRM/MediaStreamASF.cs">
+    <Files>
+      <File FileName="NewsMediaManager/WinForms - News Media Manager/Presentation/NewsMediaManager.UI.Windows/Main.cs" Line="1" Column="1" />
+      <File FileName="NewsMediaManager/WinForms - News Media Manager/Business/NewsMediaManager.Business/NewsMediaManagementComponent.cs" Line="1" Column="1" />
+      <File FileName="NewsMediaManager/WinForms - News Media Manager/Data/NewsMediaManager.Data/NewsMediaManagementDAC.cs" Line="1" Column="1" />
+      <File FileName="NewsMediaManager/WinForms - News Media Manager/Services/NewsMediaManager.Services/NewsMediaManagementService.cs" Line="1" Column="1" />
+      <File FileName="NewsMediaManager/WinForms - News Media Manager/Services/NewsMediaManager.Services.Contracts/INewsMediaManagementService.cs" Line="1" Column="1" />
+      <File FileName="NewsMediaManager/WinForms - News Media Manager/Shared/NewsMediaManager.Entities/NewsMedia.cs" Line="1" Column="1" />
+      <File FileName="NewsMediaManager/WinForms - News Media Manager/Shared/NewsMediaManager.DRM/MediaStream.cs" Line="143" Column="1" />
+      <File FileName="NewsMediaManager/WinForms - News Media Manager/Shared/NewsMediaManager.DRM/MediaStreamASF.cs" Line="89" Column="4" />
+      <File FileName="NewsMediaManager/WinForms - News Media Manager/Shared/NewsMediaManager.DRM/MediaHeader.cs" Line="1" Column="1" />
+      <File FileName="NewsMediaManager/WinForms - News Media Manager/WindowsMediaLibV1-1/src/WMCore.cs" Line="1" Column="1" />
+      <File FileName="NewsMediaManager/WinForms - News Media Manager/WindowsMediaLibV1-1/src/MMIO.cs" Line="1" Column="1" />
+      <File FileName="NewsMediaManager/WinForms - News Media Manager/WindowsMediaLibV1-1/src/WMDefs.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

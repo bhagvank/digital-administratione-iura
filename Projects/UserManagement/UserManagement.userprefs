@@ -1,0 +1,18 @@
+﻿<Properties StartupItem="UserManagement/UserManagement.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="UserManagement/WinForms - User Management/Shared/UserMgmt.Entities/User.cs">
+    <Files>
+      <File FileName="UserManagement/Program.cs" Line="1" Column="1" />
+      <File FileName="UserManagement/WinForms - User Management/Presentation/UserMgmt.UI.Windows/Main.cs" Line="1" Column="1" />
+      <File FileName="UserManagement/WinForms - User Management/Data/UserMgmt.Data/UserManagementDAC.cs" Line="88" Column="2" />
+      <File FileName="UserManagement/WinForms - User Management/Business/UserMgmt.Business/UserManagementComponent.cs" Line="77" Column="59" />
+      <File FileName="UserManagement/WinForms - User Management/Services/UserMgmt.Services/UserManagementService.cs" Line="9" Column="1" />
+      <File FileName="UserManagement/WinForms - User Management/Services/UserMgmt.Services.Contracts/IUserManagementService.cs" Line="11" Column="43" />
+      <File FileName="UserManagement/WinForms - User Management/Shared/UserMgmt.Entities/User.cs" Line="42" Column="47" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

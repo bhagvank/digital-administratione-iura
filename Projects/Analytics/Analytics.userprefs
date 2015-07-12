@@ -1,0 +1,20 @@
+﻿<Properties StartupItem="Analytics/Analytics.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Analytics/ASP.Net - Analytics/Shared/Analytics.Entities/NewsMedia.cs">
+    <Files>
+      <File FileName="Analytics/Default.aspx" Line="1" Column="1" />
+      <File FileName="Analytics/ASP.Net - Analytics/Services/Analytics.Services.Contracts/IAnalyticsManagerService.cs" Line="1" Column="1" />
+      <File FileName="Analytics/ASP.Net - Analytics/Services/Analytics.Services/AnalyticsManagerService.cs" Line="1" Column="1" />
+      <File FileName="Analytics/ASP.Net - Analytics/Data/Analytics.Data/DataAccessComponent.cs" Line="1" Column="1" />
+      <File FileName="Analytics/ASP.Net - Analytics/Data/Analytics.Data/AnalyticsDAC.cs" Line="1" Column="1" />
+      <File FileName="Analytics/ASP.Net - Analytics/Business/Analytics.Business/AnalyticsManagerComponent.cs" Line="1" Column="1" />
+      <File FileName="Analytics/ASP.Net - Analytics/Presentation/Analytics.UI.Web/Default.aspx.cs" Line="3" Column="29" />
+      <File FileName="Analytics/ASP.Net - Analytics/Shared/Analytics.Entities/NewsMedia.cs" Line="63" Column="47" />
+      <File FileName="../NewsMediaManager/NewsMediaManager/WinForms - News Media Manager/Shared/NewsMediaManager.Entities/NewsMedia.cs" Line="53" Column="2" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
